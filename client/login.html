@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="static/login_style.css">
+</head>
+<body>
+    <div class="screen">
+        <div class="header">
+          <h2>Sign in</h2>
+          <p>Have an account? Sign in to access your dashboard and view/book events.</p>
+          <p><a class="dont" id="dont" href="#">Don't have an account?</a></p>
+        </div>
+        <form class="form" id="form">
+          <div class="form-manage">
+            <label>E-mail</label>
+            <input type="text" placeholder="name@example.com" id="email">
+            <small class="error-text">Error</small>
+          </div>
+        </form>
+        <form class="form" id="form">
+          <div class="form-manage">
+            <label>Password</label>
+            <input type="password" placeholder="Password" id="password">
+            <small class="error-text">Error</small>
+            <button type="submit" class="btn-login"id="login">Sign In</button>
+          </div>
+        </form>
+    </div>
+    <script src="scripts/login_redirects.js"></script>
+</body>
+</html>

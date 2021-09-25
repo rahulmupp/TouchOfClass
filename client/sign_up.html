@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="static/sign_up_style.css" />
+    <title>Create an Account</title>
+  </head>
+  <body>
+    <div class="screen">
+      <div class="header">
+        <h2>Sign Up</h2>
+        <p>An account allows you to access the dashboard, view, and book events.</p>
+        <p><a class="have" id="have" href="#">Already have an account?</a></p>
+      </div>
+      <form class="form" id="form">
+        <div class="form-manage">
+          <label class="label">First Name</label>
+          <input type="text" placeholder="John" class ="fname input" id="fname" autocomplete="off">
+          <small class="fname-error-text">Error</small>
+        </div>
+      </form>
+      <form class="form" id="form">
+        <div class="form-manage">
+          <label class="label">Last Name</label>
+          <input type="text" placeholder="Doe" class="lname input" id="lname" autocomplete="off">
+          <small class="lname-error-text">Error</small>
+        </div>
+      </form>
+      <form class="form" id="form">
+        <div class="form-manage">
+          <label class="label">E-mail</label>
+          <input type="text" placeholder="name@example.com" class="email input" id="email" autocomplete="off">
+          <small class="email-error-text">Error</small>
+        </div>
+      </form>
+      <form class="form" id="form">
+        <div class="form-manage">
+          <label class="label">Password</label>
+          <input type="password" placeholder="Password" class="password input" id="password" autocomplete="off">
+          <small class="password-error-text">Error</small>
+        </div>
+      </form>
+      <form class="form" id="form">
+        <div class="form-manage">
+          <label class="label">Confirm Password</label>
+          <input type="password" placeholder="Confirm Password" class="password2 input" id="password2" autocomplete="off">
+          <small class="password2-error-text">Error</small>
+          <button type="button" class="btn-sign-up" id="sign-up">Sign Up</button>
+        </div>
+      </form>
+    </div>
+    <script src="scripts/sign_up_redirects.js"></script>
+    <script src="scripts/sign_up_validation.js"></script>
+  </body>
+</html>
